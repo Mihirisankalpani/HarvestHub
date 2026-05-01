@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital@1&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <title>Contact Us | HarvestHub</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+<!-- Header Section -->
+<header>
+    <div class="logo">
+        <h1>HarvestHub</h1>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            
+            <li class="dropdown">
+                <a href="#" class="dropbtn">Our Products<i class="fas fa-caret-down" onclick="toggleDropdown()"></i></a>
+                <div id="dropdown-content" class="dropdown-content">
+                    <a href="fruits.html">Fruits</a>
+                    <a href="vegetables.html">Vegetables</a>
+                    <a href="#">Herbs & Greens</a>
+                    <a href="#">Grains & Legumes</a>
+                    <a href="#">Dairy Products</a>
+                    <a href="#">Farm-Fresh Eggs</a>
+                    <a href="#">Bakery items</a>
+                    <a href="#">Jams & Preserves</a>
+                    <a href="#">Specialty Foods</a>
+                    <a href="#">Seasonal Picks</a>
+                    <a href="#">Farm Products</a>
+                </div>
+            </li>
+            <li><a href="contact.html">Contact Us</a></li>
+        
+        </ul>
+    </nav>
+</header>
+
+    <main>
+       
+
+    
+    <section class="contact-form">
+        <h1>Contact Us</h1>
+        <p>If you have any questions or need more information, feel free to get in touch with us. We're here to help!</p>
+        <form>
+            <div class="form-group">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="6" required></textarea>
+            </div>
+            <button type="submit" class="button">Submit</button>
+
+        </form>
+    </section>
+
+     <!-- Contact Information Section -->
+     <section>
+        <h2>Contact Information</h2>
+        <p><strong>Address:</strong> 123 Harvest Street, Rajagiriya, Sri Lanka</p>
+        <p><strong>Phone:</strong> +94 77 123 4567</p>
+        <p><strong>Email:</strong> support@harvesthub.com</p>
+    </section>
+
+    </main>
+
+   <section class="footer" id="footerid">
+   
+    <!--devo-->
+
+    <hr class="w-50 mt-5 mx-auto text-dark">
+    <div class="container last-footer" >
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-12 mx-auto Copyright">
+                <h4 id="last-logo">HarvestHub</h4> 
+            </div>
+            <div class="col-lg-4 col-md-4 col-12 mx-auto Copyright">
+                <h4><span id="Name">HarvestHub</span> © Privacy Policy</h4>
+            </div>
+            <div class="col-lg-4 col-md-4 col-12 mx-auto Copyright">
+                <h4>Developed by <span id="Name">Group 8.</span></h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+    function toggleDropdown() {
+        var dropdown = document.getElementById("dropdown-content");
+        if (dropdown.style.display === "block") {
+            dropdown.style.display = "none";
+        } else {
+            dropdown.style.display = "block";
+        }
+    }
+</script>
+
+</body>
+</html>

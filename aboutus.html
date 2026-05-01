@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital@1&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <title>About Us | HarvestHub</title>
+    <link rel="stylesheet" href="aboutus.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <h1>HarvestHub</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">Our Products<i class="fas fa-caret-down" onclick="toggleDropdown()"></i></a>
+                    <div id="dropdown-content" class="dropdown-content">
+                        <a href="fruits.html">Fruits</a>
+                        <a href="vegetables.html">Vegetables</a>
+                        <a href="#">Herbs & Greens</a>
+                        <a href="#">Grains & Legumes</a>
+                        <a href="#">Dairy Products</a>
+                        <a href="#">Farm-Fresh Eggs</a>
+                        <a href="#">Bakery items</a>
+                        <a href="#">Jams & Preserves</a>
+                        <a href="#">Specialty Foods</a>
+                        <a href="#">Seasonal Picks</a>
+                        <a href="#">Farm Products</a>
+                    </div>
+                </li>
+                <li><a href="contact.html">Contact Us</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Our Company Section -->
+        <section id="our-company">
+            <h1>Our Company</h1>
+            <p>HarvestHub is dedicated to revolutionizing the way consumers access fresh farm produce. We believe in bridging the gap between local farmers and consumers, ensuring that everyone has access to healthy, organic, and locally grown products. Founded with the goal of promoting sustainable agriculture, we’ve built a platform where buyers can directly purchase produce from small-scale farmers.</p>
+            <p>We operate across several regions, delivering fresh produce that is handpicked and packed with care. Our values revolve around sustainability, community support, and providing superior quality products. Every item you purchase from HarvestHub helps support local farmers and reduces the carbon footprint of food delivery, making a positive impact on the environment and the community.</p>
+            <p>Our dedication to transparency ensures that both consumers and farmers benefit equally from every transaction. By focusing on ethical sourcing and fair trade practices, we aim to create a more sustainable and responsible food ecosystem.</p>
+        </section>
+
+        <!-- Our Mission Section -->
+        <section id="our-mission">
+            <h2>Our Mission</h2>
+            <p>At HarvestHub, our mission is to empower small farmers by providing them with a digital platform that expands their market reach and offers consumers the freshest produce available. We believe that food should not only be fresh but also accessible and affordable. Our online marketplace is designed to streamline the connection between farmers and consumers, eliminating the middlemen and reducing the time produce spends in transit.</p>
+            <p>By working closely with farmers, we ensure that the products sold on our platform are cultivated with care and responsibility. Our mission is driven by the desire to:</p>
+            <ul>
+                <li>Promote sustainable and eco-friendly farming practices.</li>
+                <li>Provide consumers with fresh, organic, and locally sourced products.</li>
+                <li>Create a community-based marketplace that supports local economies.</li>
+                <li>Advocate for fair trade and transparent pricing for both farmers and consumers.</li>
+            </ul>
+            <p>Through our efforts, we aim to not only improve the quality of produce but also build a more sustainable food system for future generations.</p>
+        </section>
+
+        <!-- Refund Policy Section -->
+        <section id="refund-policy">
+            <h2>Refund Policy</h2>
+            <p>We stand behind the quality of our products and want you to be completely satisfied with your purchase. If for any reason you are not happy with the product you receive, we offer a simple and straightforward refund policy. You can request a refund within 7 days of receiving your order, and we will process it promptly.</p>
+            <p>To be eligible for a refund, the item must be returned in its original packaging and in the same condition as when you received it. Unfortunately, we cannot process refunds for perishable items that have been opened or partially consumed. If your product arrives damaged or in poor condition, please contact our support team immediately to resolve the issue.</p>
+            <p>Refunds are processed to the original payment method, and depending on your bank or credit card provider, it may take 5-7 business days to reflect in your account.</p>
+        </section>
+
+        <!-- Privacy Policy Section -->
+        <section id="privacy-policy">
+            <h2>Privacy Policy</h2>
+            <p>Your privacy is extremely important to us. At HarvestHub, we are committed to protecting the personal information you share with us. We collect only the information necessary to process your orders and enhance your shopping experience. This includes details such as your name, address, email, and payment information.</p>
+            <p>We use secure encryption technologies to ensure that your data is protected when processed through our platform. Additionally, we do not share or sell your personal information with third parties, except when required to complete your order (e.g., with delivery services).</p>
+            <p>For more detailed information, please review our full privacy policy, which outlines how your data is collected, used, and safeguarded when you use our website.</p>
+        </section>
+
+        <!-- Terms and Conditions Section -->
+        <section id="terms-and-conditions">
+            <h2>Terms and Conditions</h2>
+            <p>By using our platform, you agree to our terms and conditions, which govern the use of our website and services. Our terms cover important aspects such as product availability, order processing, delivery, and returns. Please ensure that you read these terms carefully before placing an order on HarvestHub.</p>
+            <p>Some key points include:</p>
+            <ul>
+                <li>All orders are subject to availability. In case a product becomes unavailable after placing your order, we will notify you and offer an alternative or a full refund.</li>
+                <li>Payment is required at the time of purchase. We accept major credit cards, debit cards, and other approved payment methods listed on our website.</li>
+                <li>Delivery times may vary depending on your location. We work hard to ensure that all products arrive within the promised timeframe, but unforeseen delays may occur.</li>
+                <li>By using our website, you agree not to misuse our services or provide false information during the ordering process.</li>
+            </ul>
+            <p>For a complete list of our terms and conditions, please visit the detailed terms page on our website.</p>
+        </section>
+    </main>
+
+
+    <section class="footer" id="footerid">
+   
+    <!--devo-->
+
+    <hr class="w-50 mt-5 mx-auto text-dark">
+    <div class="container last-footer" >
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-12 mx-auto Copyright">
+                <h4 id="last-logo">HarvestHub</h4> 
+            </div>
+            <div class="col-lg-4 col-md-4 col-12 mx-auto Copyright">
+                <h4><span id="Name">HarvestHub</span> © Privacy Policy</h4>
+            </div>
+            <div class="col-lg-4 col-md-4 col-12 mx-auto Copyright">
+                <h4>Developed by <span id="Name">Group 8.</span></h3>
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+</html>
